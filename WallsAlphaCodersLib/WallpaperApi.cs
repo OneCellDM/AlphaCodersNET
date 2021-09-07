@@ -5,13 +5,13 @@ using System.Linq;
 using System.Net.Http;
 using System.Reflection;
 using System.Threading.Tasks;
+using AlphaCodersLib.WallPaperApi.Interfaces;
+using AlphaCodersLib.WallPaperApi.JsonConverters;
+using AlphaCodersLib.WallPaperApi.ResponseModels;
 using Microsoft.VisualBasic;
-using WallsAlphaCodersLib.JsonConverters;
-using WallsAlphaCodersLib.ResponseModels;
-using WallsAlphaCodersLib;
-using WallsAlphaCodersLib.Interfaces;
+using AlphaCodersLib.WallPaperApi;
 
-namespace WallsAlphaCodersLib
+namespace AlphaCodersLib
 {
     public class WallpaperApi
     {

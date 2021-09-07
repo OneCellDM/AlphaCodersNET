@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WallsAlphaCodersLib
+namespace AlphaCodersLib
 {
     public class ApiException : Exception
     {
